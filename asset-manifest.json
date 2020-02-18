@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/thanders/ReactCallback/static/css/main.e0d65b33.chunk.css",
+    "main.js": "/thanders/ReactCallback/static/js/main.e91c368d.chunk.js",
+    "main.js.map": "/thanders/ReactCallback/static/js/main.e91c368d.chunk.js.map",
+    "runtime-main.js": "/thanders/ReactCallback/static/js/runtime-main.4b74b229.js",
+    "runtime-main.js.map": "/thanders/ReactCallback/static/js/runtime-main.4b74b229.js.map",
+    "static/js/2.81753766.chunk.js": "/thanders/ReactCallback/static/js/2.81753766.chunk.js",
+    "static/js/2.81753766.chunk.js.map": "/thanders/ReactCallback/static/js/2.81753766.chunk.js.map",
+    "index.html": "/thanders/ReactCallback/index.html",
+    "precache-manifest.875fefe24df5861ba5abaf20b7817ee4.js": "/thanders/ReactCallback/precache-manifest.875fefe24df5861ba5abaf20b7817ee4.js",
+    "service-worker.js": "/thanders/ReactCallback/service-worker.js",
+    "static/css/main.e0d65b33.chunk.css.map": "/thanders/ReactCallback/static/css/main.e0d65b33.chunk.css.map",
+    "static/js/2.81753766.chunk.js.LICENSE.txt": "/thanders/ReactCallback/static/js/2.81753766.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b74b229.js",
+    "static/js/2.81753766.chunk.js",
+    "static/css/main.e0d65b33.chunk.css",
+    "static/js/main.e91c368d.chunk.js"
+  ]
+}
