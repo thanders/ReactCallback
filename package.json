@@ -11,7 +11,7 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0"
   },
-  "homepage": "https://github.com/thanders/ReactCallback",
+  "homepage": "https://thanders.github.io/ReactCallback",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
