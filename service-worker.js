@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/thanders/ReactCallback/precache-manifest.875fefe24df5861ba5abaf20b7817ee4.js"
+  "/thanders/ReactCallback/precache-manifest.1bd2c5e9874fc276f188626babd95723.js"
 );
 
 self.addEventListener('message', (event) => {
