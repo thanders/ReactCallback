@@ -1,26 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NewEmployeeForm from './components/forms/newEmployee/newEmployeeForm';
+import EmployeesTable from "./components/UI/employeesTable/employeesTable";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            employees:[],
+        };
+
+    }
+
+    // A callback function to get new ReactCallback
+    getNewEmployee = (childData) => {
+        this.setState({employees: childData});
+        console.log("callback called?");
+        console.log(this.state.employees.length);
+    };
+
+
+    render() {
+
+        return (
+
+            <div className="App">
+                <header className="App-header">
+                    App Component
+                </header>
+                <div className="container">
+
+                    <NewEmployeeForm parentcallback={this.getNewEmployee}/>
+
+                    <EmployeesTable emp={this.state.employees}/>
+                </div>
+            </div>
+        );
+      }
 }
 
 export default App;

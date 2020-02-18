@@ -1,0 +1,26 @@
+.container{
+    display: inline-block;
+    border: solid black 2px;
+    padding: 20px;
+    margin: 20px;
+    min-height: 160px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+input[type=submit]{
+    width: 100px;
+    margin: 40px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
